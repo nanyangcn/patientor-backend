@@ -15,6 +15,6 @@ app.use(cors_1.default());
 const PORT = 3001;
 app.use('/api/diagnosis', diagnoses_1.default);
 app.use('/api/patients', patients_1.default);
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });

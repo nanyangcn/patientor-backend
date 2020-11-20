@@ -16,6 +16,6 @@ const PORT = 3001;
 app.use('/api/diagnosis', diagnoseRouter);
 app.use('/api/patients', patientRouter);
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
