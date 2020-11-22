@@ -7,15 +7,15 @@ This server wriiten by Typescript with REST API.
 
 In the project directory, you can run:
 
-### `npm run tsc`
+### `yarn tsc`
 
 build javascript in the ./build
 
-### `npm start`
+### `yarn start`
 
 open the app in the prodection mode.<br />
 
-### `npm run dev`
+### `yarn dev`
 
 open the app in the development mode.<br />
 
